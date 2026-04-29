@@ -1,0 +1,1183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Best Tuition in Gajuwaka | Sri Lakshmi Academy</title>
+  <meta name="description" content="Sri Lakshmi Academy – Premium coaching for 5th to Intermediate students in Gajuwaka, Visakhapatnam. CBSE, NCERT & State Board. 100% Pass Guarantee. Call 9948879120." />
+  <meta property="og:title" content="Best Tuition in Gajuwaka | Sri Lakshmi Academy" />
+  <meta property="og:description" content="Expert coaching for 5th to Intermediate. 100% Pass Guarantee. Old Gajuwaka, Visakhapatnam." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800;900&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --navy-950: #030712;
+      --navy-900: #0a0f2e;
+      --navy-800: #0f1848;
+      --navy-700: #162060;
+      --navy-600: #1e2f80;
+      --navy-500: #2540a8;
+      --gold-500: #c9913a;
+      --gold-400: #d9a84e;
+      --gold-300: #e8c077;
+      --gold-200: #f4dba8;
+      --gold-100: #fdf3e0;
+      --cream:    #faf8f4;
+      --white:    #ffffff;
+      --slate-100:#f1f5f9;
+      --slate-200:#e2e8f0;
+      --slate-400:#94a3b8;
+      --slate-500:#64748b;
+      --slate-600:#475569;
+      --slate-700:#334155;
+      --slate-800:#1e293b;
+      --radius-sm:8px;
+      --radius:   16px;
+      --radius-lg:24px;
+      --shadow-gold:0 8px 40px rgba(201,145,58,.20);
+      --shadow-navy:0 8px 40px rgba(10,15,46,.25);
+      --shadow-card:0 2px 20px rgba(10,15,46,.08);
+    }
+    html { scroll-behavior: smooth; }
+    body { font-family:'DM Sans',sans-serif; color:var(--slate-800); background:var(--white); overflow-x:hidden; }
+    h1,h2,h3,h4 { font-family:'Playfair Display',serif; }
+
+    /* ── UTILITY ── */
+    .container { max-width:1180px; margin:0 auto; padding:0 24px; }
+    .pill {
+      display:inline-flex; align-items:center; gap:8px;
+      background:var(--gold-100); border:1px solid var(--gold-300);
+      color:var(--gold-500); font-family:'DM Sans',sans-serif;
+      font-size:.72rem; font-weight:700; letter-spacing:.12em; text-transform:uppercase;
+      padding:6px 16px; border-radius:99px; margin-bottom:18px;
+    }
+    .pill-dot { width:6px; height:6px; background:var(--gold-500); border-radius:50%; }
+    .section-title { font-size:clamp(1.8rem,3.5vw,2.8rem); font-weight:800; color:var(--navy-900); line-height:1.18; margin-bottom:14px; }
+    .section-sub { color:var(--slate-600); font-size:1rem; line-height:1.75; max-width:540px; }
+    .gold-line { display:block; width:52px; height:3px; background:linear-gradient(90deg,var(--gold-500),var(--gold-300)); border-radius:99px; margin:16px 0 20px; }
+
+    /* ── BUTTONS ── */
+    .btn {
+      display:inline-flex; align-items:center; gap:9px;
+      padding:14px 30px; border-radius:var(--radius-sm);
+      font-family:'DM Sans',sans-serif; font-size:.88rem; font-weight:700;
+      cursor:pointer; border:none; text-decoration:none;
+      transition:all .25s cubic-bezier(.4,0,.2,1); letter-spacing:.02em;
+    }
+    .btn-gold { background:linear-gradient(135deg,var(--gold-500) 0%,var(--gold-400) 100%); color:#fff; box-shadow:0 4px 20px rgba(201,145,58,.4); }
+    .btn-gold:hover { transform:translateY(-2px); box-shadow:0 8px 32px rgba(201,145,58,.5); filter:brightness(1.05); }
+    .btn-navy { background:var(--navy-900); color:#fff; box-shadow:0 4px 20px rgba(10,15,46,.3); }
+    .btn-navy:hover { background:var(--navy-700); transform:translateY(-2px); }
+    .btn-outline-gold { background:transparent; color:var(--gold-500); border:2px solid var(--gold-400); }
+    .btn-outline-gold:hover { background:var(--gold-500); color:#fff; }
+    .btn-ghost-white { background:rgba(255,255,255,.12); color:#fff; border:1.5px solid rgba(255,255,255,.3); backdrop-filter:blur(8px); }
+    .btn-ghost-white:hover { background:rgba(255,255,255,.22); transform:translateY(-2px); }
+
+    /* ── ANIMATIONS ── */
+    .reveal { opacity:0; transform:translateY(28px); transition:opacity .7s ease,transform .7s ease; }
+    .reveal.visible { opacity:1; transform:none; }
+
+    /* ═══════════════════════════════════════
+       NAVBAR
+    ═══════════════════════════════════════ */
+    #nav {
+      position:sticky; top:0; z-index:1000;
+      background:rgba(250,248,244,.97);
+      backdrop-filter:blur(16px);
+      border-bottom:1px solid var(--slate-200);
+      transition:box-shadow .3s;
+    }
+    .nav-wrap {
+      max-width:1180px; margin:0 auto; padding:0 24px;
+      height:72px; display:flex; align-items:center; justify-content:space-between;
+    }
+    .logo { display:flex; align-items:center; gap:12px; text-decoration:none; }
+    .logo-emblem {
+      width:46px; height:46px;
+      background:linear-gradient(135deg,var(--navy-900),var(--navy-700));
+      border-radius:12px; display:flex; align-items:center; justify-content:center;
+      font-size:1.4rem; box-shadow:0 4px 14px rgba(10,15,46,.3);
+      position:relative; overflow:hidden;
+    }
+    .logo-emblem::after { content:''; position:absolute; bottom:0; left:0; right:0; height:2px; background:linear-gradient(90deg,var(--gold-500),var(--gold-300)); }
+    .logo-name { font-family:'Playfair Display',serif; font-size:1.05rem; font-weight:800; color:var(--navy-900); line-height:1.1; }
+    .logo-tag { font-size:.62rem; color:var(--gold-500); font-weight:600; letter-spacing:.06em; }
+    .nav-links { display:flex; align-items:center; gap:32px; list-style:none; }
+    .nav-links a { font-size:.85rem; font-weight:500; color:var(--slate-600); text-decoration:none; transition:color .2s; position:relative; }
+    .nav-links a::after { content:''; position:absolute; bottom:-3px; left:0; right:0; height:2px; background:var(--gold-500); border-radius:99px; transform:scaleX(0); transition:transform .25s; }
+    .nav-links a:hover { color:var(--navy-900); }
+    .nav-links a:hover::after { transform:scaleX(1); }
+    .nav-right { display:flex; align-items:center; gap:14px; }
+    .nav-phone { font-family:'DM Sans',sans-serif; font-size:.88rem; font-weight:700; color:var(--navy-900); text-decoration:none; display:flex; align-items:center; gap:6px; }
+    .hamburger { display:none; flex-direction:column; gap:5px; cursor:pointer; background:none; border:none; padding:4px; }
+    .hamburger span { display:block; width:22px; height:2px; background:var(--navy-900); border-radius:2px; transition:all .3s; }
+    .mobile-menu {
+      display:none; position:fixed; top:72px; left:0; right:0;
+      background:var(--cream); border-bottom:1px solid var(--slate-200);
+      padding:20px 24px; z-index:999;
+      box-shadow:0 16px 40px rgba(10,15,46,.12);
+    }
+    .mobile-menu.open { display:block; }
+    .mobile-menu ul { list-style:none; display:flex; flex-direction:column; gap:2px; }
+    .mobile-menu a { display:block; padding:13px 16px; font-weight:600; color:var(--slate-700); text-decoration:none; border-radius:10px; transition:all .2s; }
+    .mobile-menu a:hover { background:var(--gold-100); color:var(--gold-500); }
+    @media(max-width:900px){ .nav-links{display:none;} }
+    @media(max-width:640px){ .nav-right{display:none;} .hamburger{display:flex;} }
+
+    /* ═══════════════════════════════════════
+       HERO
+    ═══════════════════════════════════════ */
+    #hero {
+      min-height:95vh; background:var(--navy-950);
+      position:relative; overflow:hidden;
+      display:flex; align-items:center; padding:80px 24px;
+    }
+    .hero-mesh {
+      position:absolute; inset:0; pointer-events:none;
+      background:
+        radial-gradient(ellipse 70% 60% at 80% 20%,rgba(201,145,58,.12) 0%,transparent 60%),
+        radial-gradient(ellipse 50% 50% at 10% 80%,rgba(21,32,96,.8) 0%,transparent 60%),
+        linear-gradient(160deg,var(--navy-950) 0%,var(--navy-800) 50%,#0d1840 100%);
+    }
+    .hero-grid-lines {
+      position:absolute; inset:0; pointer-events:none; overflow:hidden; opacity:.04;
+      background-image:linear-gradient(rgba(255,255,255,1) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,1) 1px,transparent 1px);
+      background-size:60px 60px;
+    }
+    .hero-orb { position:absolute; pointer-events:none; border-radius:50%; }
+    .hero-orb.o1 { width:500px; height:500px; top:-120px; right:-80px; background:radial-gradient(circle,rgba(201,145,58,.15) 0%,transparent 70%); }
+    .hero-orb.o2 { width:300px; height:300px; bottom:40px; left:10%; background:radial-gradient(circle,rgba(37,64,168,.4) 0%,transparent 70%); }
+    .hero-inner {
+      max-width:1180px; margin:0 auto; width:100%;
+      display:grid; grid-template-columns:1.1fr 0.9fr;
+      gap:60px; align-items:center; position:relative; z-index:2;
+    }
+    .hero-eyebrow {
+      display:inline-flex; align-items:center; gap:10px;
+      background:rgba(201,145,58,.12); border:1px solid rgba(201,145,58,.3);
+      color:var(--gold-300); font-size:.75rem; font-weight:700;
+      letter-spacing:.12em; text-transform:uppercase;
+      padding:8px 18px; border-radius:99px; margin-bottom:28px;
+    }
+    .hero-eyebrow-dot { width:6px; height:6px; background:var(--gold-400); border-radius:50%; animation:pulse 2s infinite; }
+    @keyframes pulse { 0%,100%{opacity:1;transform:scale(1)} 50%{opacity:.5;transform:scale(.8)} }
+    .hero-title { font-size:clamp(2.4rem,5vw,4rem); font-weight:900; color:#fff; line-height:1.1; margin-bottom:22px; }
+    .hero-title .gold-text { background:linear-gradient(135deg,var(--gold-400),var(--gold-200)); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; }
+    .hero-desc { color:rgba(255,255,255,.65); font-size:1.05rem; line-height:1.8; margin-bottom:36px; max-width:500px; }
+    .hero-actions { display:flex; flex-wrap:wrap; gap:14px; margin-bottom:44px; }
+    .hero-badges { display:flex; flex-wrap:wrap; gap:10px; margin-bottom:44px; }
+    .hero-badge-chip { background:rgba(255,255,255,.06); border:1px solid rgba(255,255,255,.14); color:rgba(255,255,255,.8); font-size:.75rem; font-weight:600; padding:7px 16px; border-radius:8px; letter-spacing:.04em; }
+    .hero-divider { width:1px; background:rgba(255,255,255,.15); margin:0 4px; }
+    .hero-stats { display:flex; align-items:center; gap:28px; }
+    .h-stat-num { font-family:'Playfair Display',serif; font-size:2rem; font-weight:800; color:#fff; line-height:1; }
+    .h-stat-num span { color:var(--gold-400); }
+    .h-stat-label { font-size:.72rem; color:rgba(255,255,255,.5); margin-top:4px; letter-spacing:.04em; text-transform:uppercase; }
+
+    /* Hero visual */
+    .hero-card-outer {
+      background:linear-gradient(135deg,rgba(201,145,58,.2) 0%,rgba(255,255,255,.05) 100%);
+      border:1px solid rgba(201,145,58,.25); border-radius:var(--radius-lg);
+      padding:3px; box-shadow:0 32px 80px rgba(0,0,0,.5),0 0 0 1px rgba(201,145,58,.1);
+    }
+    .hero-card-inner { background:var(--navy-800); border-radius:calc(var(--radius-lg) - 3px); overflow:hidden; }
+    .hero-card-inner img { width:100%; display:block; }
+    .hero-card-badge {
+      position:absolute; bottom:28px; left:-20px;
+      background:var(--white); border-radius:var(--radius-sm);
+      padding:12px 18px; box-shadow:0 8px 32px rgba(0,0,0,.2);
+      display:flex; align-items:center; gap:10px;
+    }
+    .hero-card-badge .badge-icon { width:36px; height:36px; background:linear-gradient(135deg,var(--gold-500),var(--gold-300)); border-radius:8px; display:flex; align-items:center; justify-content:center; font-size:1rem; }
+    .hero-card-badge .badge-num { font-family:'Playfair Display',serif; font-size:1.1rem; font-weight:800; color:var(--navy-900); line-height:1; }
+    .hero-card-badge .badge-txt { font-size:.7rem; color:var(--slate-500); }
+    .hero-card-badge2 { position:absolute; top:20px; right:-16px; background:linear-gradient(135deg,var(--gold-500),var(--gold-400)); border-radius:var(--radius-sm); padding:10px 16px; color:#fff; font-size:.78rem; font-weight:700; box-shadow:0 8px 24px rgba(201,145,58,.5); }
+    .hero-visual { position:relative; }
+    @media(max-width:900px){
+      .hero-inner{grid-template-columns:1fr;text-align:center;}
+      .hero-visual{display:none;}
+      .hero-badges,.hero-actions,.hero-stats{justify-content:center;}
+      .hero-desc{margin:0 auto 36px;}
+    }
+
+    /* ═══════════════════════════════════════
+       GOLD STRIPE MARQUEE
+    ═══════════════════════════════════════ */
+    .gold-stripe {
+      background:linear-gradient(90deg,var(--navy-900) 0%,var(--navy-800) 100%);
+      overflow:hidden;
+      border-top:1px solid rgba(201,145,58,.2);
+      border-bottom:1px solid rgba(201,145,58,.2);
+    }
+    .stripe-track { display:flex; animation:stripeMove 22s linear infinite; white-space:nowrap; }
+    .stripe-item {
+      display:flex; align-items:center; gap:12px;
+      padding:16px 36px; color:rgba(255,255,255,.7);
+      font-size:.78rem; font-weight:600; letter-spacing:.08em; text-transform:uppercase;
+      flex-shrink:0; border-right:1px solid rgba(255,255,255,.07);
+    }
+    .stripe-gem { color:var(--gold-400); font-size:.6rem; }
+    @keyframes stripeMove { from{transform:translateX(0)} to{transform:translateX(-50%)} }
+
+    /* ═══════════════════════════════════════
+       STATS BAR
+    ═══════════════════════════════════════ */
+    .stats-bar { background:var(--cream); border-bottom:1px solid var(--slate-200); padding:52px 24px; }
+    .stats-inner { max-width:1180px; margin:0 auto; display:grid; grid-template-columns:repeat(4,1fr); }
+    .stat-cell { text-align:center; padding:20px 24px; border-right:1px solid var(--slate-200); }
+    .stat-cell:last-child { border-right:none; }
+    .stat-num { font-family:'Playfair Display',serif; font-size:2.6rem; font-weight:800; background:linear-gradient(135deg,var(--navy-900),var(--navy-600)); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; line-height:1; }
+    .stat-gold { font-size:1.8rem; color:var(--gold-500); display:inline; -webkit-text-fill-color:var(--gold-500); }
+    .stat-label { font-size:.78rem; color:var(--slate-500); margin-top:6px; letter-spacing:.06em; text-transform:uppercase; font-weight:600; }
+    @media(max-width:600px){ .stats-inner{grid-template-columns:repeat(2,1fr);} .stat-cell:nth-child(2){border-right:none;} }
+
+    /* ═══════════════════════════════════════
+       COURSES
+    ═══════════════════════════════════════ */
+    #courses { padding:100px 0; background:var(--white); }
+    .section-header { margin-bottom:56px; }
+    .courses-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(250px,1fr)); gap:20px; }
+    .course-card {
+      background:var(--white); border:1px solid var(--slate-200);
+      border-radius:var(--radius); padding:30px 26px;
+      transition:all .3s cubic-bezier(.4,0,.2,1);
+      position:relative; overflow:hidden; cursor:pointer;
+    }
+    .course-card::before { content:''; position:absolute; bottom:0; left:0; right:0; height:3px; background:linear-gradient(90deg,var(--gold-500),var(--gold-300)); transform:scaleX(0); transform-origin:left; transition:transform .35s ease; }
+    .course-card::after { content:''; position:absolute; inset:0; background:linear-gradient(135deg,var(--gold-100) 0%,transparent 60%); opacity:0; transition:opacity .3s; }
+    .course-card:hover { border-color:var(--gold-300); box-shadow:var(--shadow-gold); transform:translateY(-6px); }
+    .course-card:hover::before { transform:scaleX(1); }
+    .course-card:hover::after { opacity:1; }
+    .course-card > * { position:relative; z-index:1; }
+    .course-icon-wrap { width:54px; height:54px; background:linear-gradient(135deg,var(--navy-900),var(--navy-700)); border-radius:14px; display:flex; align-items:center; justify-content:center; font-size:1.5rem; margin-bottom:18px; box-shadow:0 6px 20px rgba(10,15,46,.2); }
+    .course-tag { display:inline-block; background:var(--gold-100); color:var(--gold-500); font-size:.68rem; font-weight:700; letter-spacing:.08em; text-transform:uppercase; padding:4px 12px; border-radius:99px; margin-bottom:10px; }
+    .course-card h3 { font-size:1rem; color:var(--navy-900); margin-bottom:8px; font-weight:700; }
+    .course-card p { font-size:.83rem; color:var(--slate-600); line-height:1.65; margin-bottom:20px; }
+
+    /* ═══════════════════════════════════════
+       FEATURES
+    ═══════════════════════════════════════ */
+    #features { padding:100px 0; background:var(--navy-950); position:relative; overflow:hidden; }
+    #features::before {
+      content:''; position:absolute; inset:0; pointer-events:none;
+      background:radial-gradient(ellipse 80% 50% at 50% -10%,rgba(201,145,58,.08) 0%,transparent 60%),linear-gradient(180deg,var(--navy-950) 0%,var(--navy-900) 100%);
+    }
+    #features .pill { background:rgba(201,145,58,.12); border-color:rgba(201,145,58,.25); color:var(--gold-300); }
+    #features .section-title { color:#fff; }
+    #features .section-sub { color:rgba(255,255,255,.55); }
+    #features .gold-line { background:linear-gradient(90deg,var(--gold-500),transparent); }
+    .features-grid {
+      display:grid; grid-template-columns:repeat(3,1fr);
+      gap:1px; background:rgba(255,255,255,.06);
+      border:1px solid rgba(255,255,255,.07); border-radius:var(--radius-lg);
+      overflow:hidden; margin-top:56px;
+    }
+    .feat-cell { background:var(--navy-900); padding:36px 30px; transition:background .3s; position:relative; overflow:hidden; }
+    .feat-cell::after { content:''; position:absolute; inset:0; background:linear-gradient(135deg,rgba(201,145,58,.06) 0%,transparent 60%); opacity:0; transition:opacity .3s; }
+    .feat-cell:hover { background:var(--navy-800); }
+    .feat-cell:hover::after { opacity:1; }
+    .feat-icon { width:52px; height:52px; background:linear-gradient(135deg,var(--gold-500),var(--gold-300)); border-radius:14px; display:flex; align-items:center; justify-content:center; font-size:1.3rem; margin-bottom:18px; box-shadow:0 6px 20px rgba(201,145,58,.3); position:relative; z-index:1; }
+    .feat-cell h4 { font-family:'Playfair Display',serif; font-size:1rem; color:#fff; margin-bottom:8px; position:relative; z-index:1; }
+    .feat-cell p { font-size:.82rem; color:rgba(255,255,255,.5); line-height:1.7; position:relative; z-index:1; }
+    @media(max-width:768px){ .features-grid{grid-template-columns:1fr;} }
+    @media(min-width:769px) and (max-width:900px){ .features-grid{grid-template-columns:repeat(2,1fr);} }
+
+    /* ═══════════════════════════════════════
+       SUMMER BANNER
+    ═══════════════════════════════════════ */
+    #summer { padding:0; overflow:hidden; }
+    .summer-inner {
+      background:linear-gradient(135deg,var(--gold-500) 0%,#b8740a 100%);
+      padding:80px 48px; text-align:center; position:relative; overflow:hidden;
+    }
+    .summer-inner::before {
+      content:''; position:absolute; inset:0;
+      background:url("data:image/svg+xml,%3Csvg width='60' height='60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M30 0 L60 30 L30 60 L0 30Z' fill='none' stroke='rgba(255,255,255,0.06)' stroke-width='1'/%3E%3C/svg%3E") repeat;
+      background-size:60px 60px;
+    }
+    .summer-inner .pill { background:rgba(255,255,255,.2); border-color:rgba(255,255,255,.3); color:#fff; }
+    .summer-inner .section-title { color:#fff; }
+    .summer-inner > .container > p { color:rgba(255,255,255,.88); max-width:520px; margin:0 auto 32px; font-size:1.05rem; }
+
+    /* ═══════════════════════════════════════
+       SYLLABUS
+    ═══════════════════════════════════════ */
+    #syllabus { padding:100px 0; background:var(--cream); }
+    .syllabus-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:24px; margin-top:56px; }
+    .syl-card {
+      background:var(--white); border:1px solid var(--slate-200);
+      border-radius:var(--radius); padding:40px 32px; text-align:center;
+      transition:all .3s; position:relative; overflow:hidden;
+    }
+    .syl-card::before { content:''; position:absolute; top:0; left:0; right:0; height:4px; background:linear-gradient(90deg,var(--gold-500),var(--gold-300)); transform:scaleX(0); transition:transform .35s; }
+    .syl-card:hover { box-shadow:var(--shadow-gold); transform:translateY(-6px); border-color:var(--gold-200); }
+    .syl-card:hover::before { transform:scaleX(1); }
+    .syl-icon { width:72px; height:72px; border-radius:20px; background:linear-gradient(135deg,var(--navy-900),var(--navy-700)); display:flex; align-items:center; justify-content:center; font-size:2rem; margin:0 auto 20px; box-shadow:0 8px 24px rgba(10,15,46,.2); }
+    .syl-card h3 { font-size:1.3rem; color:var(--navy-900); margin-bottom:10px; }
+    .syl-card p { font-size:.84rem; color:var(--slate-600); line-height:1.7; }
+    @media(max-width:640px){ .syllabus-grid{grid-template-columns:1fr;} }
+
+    /* ═══════════════════════════════════════
+       FACULTY
+    ═══════════════════════════════════════ */
+    #faculty { padding:100px 0; background:var(--white); }
+    .faculty-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:24px; margin-top:56px; }
+    .fac-card { border-radius:var(--radius); overflow:hidden; border:1px solid var(--slate-200); transition:all .3s; background:var(--white); }
+    .fac-card:hover { box-shadow:var(--shadow-navy); transform:translateY(-6px); border-color:var(--slate-300); }
+    .fac-img-wrap { position:relative; }
+    .fac-img-wrap img { width:100%; height:220px; object-fit:cover; display:block; filter:brightness(.95); }
+    .fac-img-overlay { position:absolute; inset:0; background:linear-gradient(0deg,rgba(10,15,46,.8) 0%,transparent 50%); }
+    .fac-subject-tag { position:absolute; bottom:14px; left:14px; background:linear-gradient(135deg,var(--gold-500),var(--gold-300)); color:#fff; font-size:.72rem; font-weight:700; padding:5px 14px; border-radius:99px; letter-spacing:.06em; text-transform:uppercase; }
+    .fac-body { padding:22px; }
+    .fac-body h3 { font-size:1.05rem; color:var(--navy-900); margin-bottom:4px; }
+    .fac-exp { font-size:.8rem; color:var(--slate-500); }
+    @media(max-width:768px){ .faculty-grid{grid-template-columns:1fr;} }
+    @media(min-width:769px) and (max-width:900px){ .faculty-grid{grid-template-columns:repeat(2,1fr);} }
+
+    /* ═══════════════════════════════════════
+       TESTIMONIALS
+    ═══════════════════════════════════════ */
+    #testimonials { padding:100px 0; background:var(--cream); }
+    .testi-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(290px,1fr)); gap:22px; margin-top:56px; }
+    .testi-card {
+      background:var(--white); border:1px solid var(--slate-200);
+      border-radius:var(--radius); padding:30px;
+      transition:all .3s; position:relative;
+    }
+    .testi-card::before { content:'"'; position:absolute; top:18px; right:24px; font-family:'Playfair Display',serif; font-size:5rem; color:var(--gold-200); line-height:1; pointer-events:none; }
+    .testi-card:hover { box-shadow:var(--shadow-gold); border-color:var(--gold-200); transform:translateY(-4px); }
+    .testi-stars { color:var(--gold-500); font-size:.9rem; letter-spacing:3px; margin-bottom:14px; }
+    .testi-text { font-size:.88rem; color:var(--slate-600); line-height:1.75; margin-bottom:22px; font-style:italic; position:relative; z-index:1; }
+    .testi-author { display:flex; align-items:center; gap:12px; }
+    .testi-av { width:44px; height:44px; border-radius:50%; object-fit:cover; border:2px solid var(--gold-200); }
+    .testi-name { font-family:'Playfair Display',serif; font-size:.92rem; color:var(--navy-900); font-weight:700; }
+    .testi-role { font-size:.72rem; color:var(--slate-500); margin-top:2px; }
+
+    /* ═══════════════════════════════════════
+       DEMO FORM
+    ═══════════════════════════════════════ */
+    #demo { padding:100px 0; background:var(--white); }
+    .demo-grid { display:grid; grid-template-columns:1fr 1fr; gap:64px; align-items:start; }
+    .demo-check-list { display:flex; flex-direction:column; gap:14px; margin:28px 0; }
+    .demo-check { display:flex; align-items:flex-start; gap:14px; padding:16px 18px; background:var(--cream); border:1px solid var(--slate-200); border-radius:var(--radius-sm); transition:all .25s; }
+    .demo-check:hover { border-color:var(--gold-300); background:var(--gold-100); }
+    .demo-check-icon { width:36px; height:36px; flex-shrink:0; background:linear-gradient(135deg,var(--gold-500),var(--gold-300)); border-radius:8px; display:flex; align-items:center; justify-content:center; font-size:.95rem; }
+    .demo-check p { font-size:.85rem; color:var(--slate-700); font-weight:500; line-height:1.5; }
+    .cta-phone-box { background:linear-gradient(135deg,var(--navy-900),var(--navy-700)); border-radius:var(--radius); padding:22px 24px; display:flex; align-items:center; gap:16px; margin-top:8px; }
+    .cta-phone-box .icon { font-size:1.8rem; }
+    .cta-phone-box .label { font-size:.72rem; color:rgba(255,255,255,.55); text-transform:uppercase; letter-spacing:.08em; }
+    .cta-phone-box a { font-family:'Playfair Display',serif; font-size:1.6rem; color:var(--gold-400); text-decoration:none; font-weight:700; display:block; }
+    .form-box {
+      background:var(--white); border:1px solid var(--slate-200);
+      border-radius:var(--radius-lg); padding:44px 40px;
+      box-shadow:0 16px 60px rgba(10,15,46,.1);
+      position:relative; overflow:hidden;
+    }
+    .form-box::before { content:''; position:absolute; top:0; left:0; right:0; height:4px; background:linear-gradient(90deg,var(--gold-500),var(--gold-300)); }
+    .form-box h2 { font-size:1.5rem; color:var(--navy-900); margin-bottom:6px; }
+    .form-box > p { font-size:.88rem; color:var(--slate-500); margin-bottom:28px; }
+    .form-group { margin-bottom:18px; }
+    .form-group label { display:block; font-size:.78rem; font-weight:700; color:var(--slate-700); margin-bottom:8px; letter-spacing:.04em; text-transform:uppercase; }
+    .form-group input,.form-group select { width:100%; padding:13px 16px; border:1.5px solid var(--slate-200); border-radius:var(--radius-sm); font-family:'DM Sans',sans-serif; font-size:.9rem; color:var(--slate-800); outline:none; transition:border .2s,box-shadow .2s; background:var(--cream); }
+    .form-group input:focus,.form-group select:focus { border-color:var(--gold-400); box-shadow:0 0 0 3px rgba(201,145,58,.12); background:#fff; }
+    .form-success { display:none; text-align:center; padding:24px 20px; background:#f0fdf4; border:1px solid #86efac; border-radius:var(--radius-sm); color:#166534; font-weight:700; font-size:.95rem; }
+    @media(max-width:768px){ .demo-grid{grid-template-columns:1fr;} .form-box{padding:28px 20px;} }
+
+    /* ═══════════════════════════════════════
+       CONTACT
+    ═══════════════════════════════════════ */
+    #contact { padding:100px 0; background:var(--navy-950); position:relative; }
+    #contact::before { content:''; position:absolute; inset:0; background:radial-gradient(ellipse 60% 40% at 50% 0%,rgba(201,145,58,.06) 0%,transparent 60%); pointer-events:none; }
+    #contact .pill { background:rgba(201,145,58,.12); border-color:rgba(201,145,58,.25); color:var(--gold-300); }
+    #contact .section-title { color:#fff; }
+    #contact .section-sub { color:rgba(255,255,255,.55); }
+    #contact .gold-line { background:linear-gradient(90deg,var(--gold-500),transparent); }
+    .contact-grid { display:grid; grid-template-columns:1fr 1fr; gap:52px; margin-top:56px; align-items:start; position:relative; z-index:2; }
+    .contact-item { display:flex; gap:16px; margin-bottom:24px; }
+    .c-icon { width:48px; height:48px; flex-shrink:0; background:rgba(201,145,58,.12); border:1px solid rgba(201,145,58,.2); border-radius:12px; display:flex; align-items:center; justify-content:center; font-size:1.2rem; }
+    .contact-item h4 { font-family:'DM Sans',sans-serif; font-size:.78rem; font-weight:700; color:var(--gold-400); letter-spacing:.08em; text-transform:uppercase; margin-bottom:5px; }
+    .contact-item p,.contact-item a { font-size:.9rem; color:rgba(255,255,255,.7); text-decoration:none; line-height:1.6; }
+    .contact-item a:hover { color:var(--gold-400); }
+    .map-frame { border-radius:var(--radius); overflow:hidden; border:1px solid rgba(255,255,255,.1); height:320px; }
+    .map-frame iframe { width:100%; height:100%; border:none; }
+    .map-hint { margin-top:14px; padding:14px 18px; background:rgba(201,145,58,.08); border:1px solid rgba(201,145,58,.15); border-radius:10px; display:flex; align-items:center; gap:12px; }
+    .map-hint p { font-size:.82rem; font-weight:700; color:var(--gold-400); }
+    .map-hint a { font-size:.75rem; color:rgba(255,255,255,.45); }
+    @media(max-width:768px){ .contact-grid{grid-template-columns:1fr;} }
+
+    /* ═══════════════════════════════════════
+       FOOTER
+    ═══════════════════════════════════════ */
+    footer { background:var(--navy-950); border-top:1px solid rgba(255,255,255,.07); color:rgba(255,255,255,.55); padding:72px 24px 36px; }
+    .footer-grid { max-width:1180px; margin:0 auto; display:grid; grid-template-columns:2fr 1fr 1fr 1fr; gap:44px; margin-bottom:56px; }
+    .footer-emblem { display:flex; align-items:center; gap:10px; margin-bottom:12px; }
+    .footer-emblem-icon { width:40px; height:40px; background:linear-gradient(135deg,var(--navy-700),var(--navy-600)); border-radius:10px; display:flex; align-items:center; justify-content:center; font-size:1.2rem; border:1px solid rgba(201,145,58,.3); }
+    .footer-brand-name { font-family:'Playfair Display',serif; font-size:1.15rem; font-weight:800; color:#fff; margin-bottom:4px; }
+    .footer-tagline { color:var(--gold-400); font-size:.78rem; font-weight:600; letter-spacing:.06em; margin-bottom:14px; }
+    .footer-brand p { font-size:.83rem; line-height:1.75; max-width:260px; }
+    .footer-col h4 { font-family:'DM Sans',sans-serif; font-size:.7rem; font-weight:700; color:var(--gold-400); letter-spacing:.12em; text-transform:uppercase; margin-bottom:18px; }
+    .footer-col ul { list-style:none; display:flex; flex-direction:column; gap:10px; }
+    .footer-col a { font-size:.83rem; color:rgba(255,255,255,.5); text-decoration:none; transition:color .2s; }
+    .footer-col a:hover { color:var(--gold-400); }
+    .footer-cta-box { display:inline-flex; align-items:center; gap:8px; background:linear-gradient(135deg,var(--gold-500),var(--gold-300)); color:#fff; padding:11px 20px; border-radius:8px; font-size:.85rem; font-weight:700; text-decoration:none; box-shadow:0 4px 16px rgba(201,145,58,.35); margin-top:20px; transition:all .25s; }
+    .footer-cta-box:hover { transform:translateY(-2px); box-shadow:0 8px 24px rgba(201,145,58,.45); }
+    .footer-bottom { max-width:1180px; margin:0 auto; border-top:1px solid rgba(255,255,255,.07); padding-top:28px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:14px; }
+    .footer-bottom p { font-size:.78rem; }
+    .social-row { display:flex; gap:10px; }
+    .soc-btn { width:38px; height:38px; background:rgba(255,255,255,.06); border-radius:10px; display:flex; align-items:center; justify-content:center; font-size:.95rem; color:rgba(255,255,255,.55); text-decoration:none; transition:all .2s; border:1px solid rgba(255,255,255,.08); }
+    .soc-btn:hover { background:var(--gold-500); color:#fff; border-color:var(--gold-500); }
+    @media(max-width:768px){ .footer-grid{grid-template-columns:1fr 1fr;} }
+    @media(max-width:480px){ .footer-grid{grid-template-columns:1fr;} }
+
+    /* ═══════════════════════════════════════
+       FLOATING BUTTONS
+    ═══════════════════════════════════════ */
+    .fab-wrap { position:fixed; bottom:28px; right:24px; z-index:9999; display:flex; flex-direction:column; gap:12px; }
+    .fab-row { position:relative; display:flex; align-items:center; justify-content:flex-end; }
+    .fab-tip { position:absolute; right:66px; background:var(--navy-900); color:#fff; font-size:.72rem; font-weight:700; padding:5px 12px; border-radius:6px; white-space:nowrap; opacity:0; pointer-events:none; transition:opacity .2s; border:1px solid rgba(255,255,255,.1); }
+    .fab-row:hover .fab-tip { opacity:1; }
+    .fab { width:54px; height:54px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:1.4rem; text-decoration:none; color:#fff; box-shadow:0 6px 24px rgba(0,0,0,.25); transition:all .25s; }
+    .fab:hover { transform:scale(1.1); }
+    .fab-wa { background:linear-gradient(135deg,#25d366,#128c4c); }
+    .fab-call { background:linear-gradient(135deg,var(--gold-500),#b8740a); }
+  </style>
+</head>
+<body>
+
+<!-- ══════════════════════════════════════════════
+     NAVBAR
+══════════════════════════════════════════════ -->
+<nav id="nav">
+  <div class="nav-wrap">
+    <a href="#" class="logo">
+      <div class="logo-emblem">🎓</div>
+      <div>
+        <div class="logo-name">Sri Lakshmi Academy</div>
+        <div class="logo-tag">Right Choice for Bright Future</div>
+      </div>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#courses">Courses</a></li>
+      <li><a href="#features">Why Us</a></li>
+      <li><a href="#faculty">Faculty</a></li>
+      <li><a href="#testimonials">Reviews</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-right">
+      <a href="tel:9948879120" class="nav-phone">📞 9948879120</a>
+      <a href="#demo" class="btn btn-gold" style="padding:11px 22px;font-size:.82rem;">Free Demo</a>
+    </div>
+    <button class="hamburger" id="hamburger" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <ul>
+    <li><a href="#courses"      onclick="closeMob()">Courses</a></li>
+    <li><a href="#features"     onclick="closeMob()">Why Us</a></li>
+    <li><a href="#summer"       onclick="closeMob()">Summer Classes</a></li>
+    <li><a href="#faculty"      onclick="closeMob()">Faculty</a></li>
+    <li><a href="#testimonials" onclick="closeMob()">Reviews</a></li>
+    <li><a href="#contact"      onclick="closeMob()">Contact</a></li>
+    <li style="margin-top:10px;">
+      <a href="tel:9948879120" class="btn btn-gold" style="display:block;text-align:center;">📞 Call: 9948879120</a>
+    </li>
+  </ul>
+</div>
+
+
+<!-- ══════════════════════════════════════════════
+     HERO
+══════════════════════════════════════════════ -->
+<section id="hero">
+  <div class="hero-mesh"></div>
+  <div class="hero-grid-lines"></div>
+  <div class="hero-orb o1"></div>
+  <div class="hero-orb o2"></div>
+
+  <div class="hero-inner">
+    <!-- LEFT -->
+    <div class="reveal">
+      <div class="hero-eyebrow">
+        <span class="hero-eyebrow-dot"></span>
+        Admissions Open 2025–26 — Limited Seats
+      </div>
+      <h1 class="hero-title">
+        <span class="gold-text">100% Pass Guarantee</span><br />Tuition Academy
+      </h1>
+      <p class="hero-desc">
+        Expert coaching for 5th to Intermediate students. Individual attention, proven results,
+        and a nurturing environment that turns every student into a topper.
+      </p>
+      <div class="hero-actions">
+        <a href="tel:9948879120" class="btn btn-ghost-white">📞 Call Now</a>
+        <a href="https://wa.me/919948879120?text=Hello!%20I%20want%20to%20enquire%20about%20Sri%20Lakshmi%20Academy." target="_blank" class="btn btn-gold">💬 Join WhatsApp</a>
+      </div>
+      <div class="hero-badges">
+        <span class="hero-badge-chip">✦ CBSE</span>
+        <span class="hero-badge-chip">✦ NCERT</span>
+        <span class="hero-badge-chip">✦ State Syllabus</span>
+        <span class="hero-badge-chip">✦ 5th – Intermediate</span>
+      </div>
+      <div class="hero-stats">
+        <div>
+          <div class="h-stat-num">500<span>+</span></div>
+          <div class="h-stat-label">Students</div>
+        </div>
+        <div class="hero-divider"></div>
+        <div>
+          <div class="h-stat-num">100<span>%</span></div>
+          <div class="h-stat-label">Pass Rate</div>
+        </div>
+        <div class="hero-divider"></div>
+        <div>
+          <div class="h-stat-num">10<span>+</span></div>
+          <div class="h-stat-label">Years</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- RIGHT visual -->
+    <div class="hero-visual reveal" style="transition-delay:.2s">
+      <div class="hero-card-outer">
+        <div class="hero-card-inner">
+          <img src="https://placehold.co/500x400/0a0f2e/c9913a?text=Sri+Lakshmi+Academy%0AExcellence+in+Education" alt="Sri Lakshmi Academy students" />
+        </div>
+      </div>
+      <div class="hero-card-badge">
+        <div class="badge-icon">🏆</div>
+        <div>
+          <div class="badge-num">100%</div>
+          <div class="badge-txt">Pass Guarantee</div>
+        </div>
+      </div>
+      <div class="hero-card-badge2">⭐ Top Rated Academy</div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════
+     GOLD STRIPE MARQUEE
+══════════════════════════════════════════════ -->
+<div class="gold-stripe">
+  <div class="stripe-track">
+    <span class="stripe-item"><span class="stripe-gem">◆</span> 100% Pass Guarantee</span>
+    <span class="stripe-item"><span class="stripe-gem">◆</span> Experienced Faculty</span>
+    <span class="stripe-item"><span class="stripe-gem">◆</span> Individual Attention</span>
+    <span class="stripe-item"><span class="stripe-gem">◆</span> Daily Practice Tests</span>
+    <span class="stripe-item"><span class="stripe-gem">◆</span> CBSE · NCERT · State Board</span>
+    <span class="stripe-item"><span class="stripe-gem">◆</span> Admissions Open 2025–26</span>
+    <span class="stripe-item"><span class="stripe-gem">◆</span> Old Gajuwaka, Visakhapatnam</span>
+    <span class="stripe-item"><span class="stripe-gem">◆</span> Special Weak Student Batches</span>
+    <!-- duplicate for seamless loop -->
+    <span class="stripe-item"><span class="stripe-gem">◆</span> 100% Pass Guarantee</span>
+    <span class="stripe-item"><span class="stripe-gem">◆</span> Experienced Faculty</span>
+    <span class="stripe-item"><span class="stripe-gem">◆</span> Individual Attention</span>
+    <span class="stripe-item"><span class="stripe-gem">◆</span> Daily Practice Tests</span>
+    <span class="stripe-item"><span class="stripe-gem">◆</span> CBSE · NCERT · State Board</span>
+    <span class="stripe-item"><span class="stripe-gem">◆</span> Admissions Open 2025–26</span>
+    <span class="stripe-item"><span class="stripe-gem">◆</span> Old Gajuwaka, Visakhapatnam</span>
+    <span class="stripe-item"><span class="stripe-gem">◆</span> Special Weak Student Batches</span>
+  </div>
+</div>
+
+
+<!-- ══════════════════════════════════════════════
+     STATS BAR
+══════════════════════════════════════════════ -->
+<div class="stats-bar">
+  <div class="stats-inner">
+    <div class="stat-cell reveal">
+      <div class="stat-num">500<span class="stat-gold">+</span></div>
+      <div class="stat-label">Students Enrolled</div>
+    </div>
+    <div class="stat-cell reveal" style="transition-delay:.1s">
+      <div class="stat-num">100<span class="stat-gold">%</span></div>
+      <div class="stat-label">Pass Guarantee</div>
+    </div>
+    <div class="stat-cell reveal" style="transition-delay:.2s">
+      <div class="stat-num">10<span class="stat-gold">+</span></div>
+      <div class="stat-label">Years of Excellence</div>
+    </div>
+    <div class="stat-cell reveal" style="transition-delay:.3s">
+      <div class="stat-num">50<span class="stat-gold">+</span></div>
+      <div class="stat-label">Top Rank Holders</div>
+    </div>
+  </div>
+</div>
+
+
+<!-- ══════════════════════════════════════════════
+     COURSES
+══════════════════════════════════════════════ -->
+<section id="courses">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="pill"><span class="pill-dot"></span>Our Courses</span>
+      <h2 class="section-title">Comprehensive Classes for<br />Every Standard</h2>
+      <span class="gold-line"></span>
+      <p class="section-sub">From foundational learning in 5th grade to board-level mastery in Intermediate — expert guidance at every step.</p>
+    </div>
+    <div class="courses-grid">
+      <div class="course-card reveal">
+        <div class="course-icon-wrap">🏆</div>
+        <span class="course-tag">Class XI &amp; XII</span>
+        <h3>Intermediate MPC</h3>
+        <p>Maths, Physics &amp; Chemistry — deep concept building for JEE &amp; EAMCET aspirants with intensive problem solving.</p>
+        <a href="#demo" class="btn btn-gold" style="width:100%;justify-content:center;padding:12px;">Enroll Now →</a>
+      </div>
+      <div class="course-card reveal" style="transition-delay:.05s">
+        <div class="course-icon-wrap">🔬</div>
+        <span class="course-tag">Class XI &amp; XII</span>
+        <h3>Intermediate BiPC</h3>
+        <p>Biology, Physics &amp; Chemistry for NEET aspirants. Concept clarity with detailed diagrams and solved papers.</p>
+        <a href="#demo" class="btn btn-gold" style="width:100%;justify-content:center;padding:12px;">Enroll Now →</a>
+      </div>
+      <div class="course-card reveal" style="transition-delay:.1s">
+        <div class="course-icon-wrap">📊</div>
+        <span class="course-tag">Class XI &amp; XII</span>
+        <h3>Commerce &amp; Accounts</h3>
+        <p>Accountancy, Business Studies, Economics &amp; Statistics — practical and theoretical with board-exam focus.</p>
+        <a href="#demo" class="btn btn-gold" style="width:100%;justify-content:center;padding:12px;">Enroll Now →</a>
+      </div>
+      <div class="course-card reveal" style="transition-delay:.15s">
+        <div class="course-icon-wrap">🥇</div>
+        <span class="course-tag">Class X</span>
+        <h3>10th Class</h3>
+        <p>Board exam preparation — SSC &amp; CBSE focus with special attention to Maths, Science, and Social Studies.</p>
+        <a href="#demo" class="btn btn-gold" style="width:100%;justify-content:center;padding:12px;">Enroll Now →</a>
+      </div>
+      <div class="course-card reveal" style="transition-delay:.2s">
+        <div class="course-icon-wrap">📐</div>
+        <span class="course-tag">Class IX</span>
+        <h3>9th Class</h3>
+        <p>Foundation year — strong basics in Maths, Science and English with regular practice tests and feedback.</p>
+        <a href="#demo" class="btn btn-gold" style="width:100%;justify-content:center;padding:12px;">Enroll Now →</a>
+      </div>
+      <div class="course-card reveal" style="transition-delay:.25s">
+        <div class="course-icon-wrap">📏</div>
+        <span class="course-tag">Class VIII</span>
+        <h3>8th Class</h3>
+        <p>Building academic confidence with structured core subject learning and exam preparation techniques.</p>
+        <a href="#demo" class="btn btn-gold" style="width:100%;justify-content:center;padding:12px;">Enroll Now →</a>
+      </div>
+      <div class="course-card reveal" style="transition-delay:.3s">
+        <div class="course-icon-wrap">✏️</div>
+        <span class="course-tag">Class VI &amp; VII</span>
+        <h3>6th &amp; 7th Class</h3>
+        <p>Concept-based interactive methods that make subjects engaging and memorable for young learners.</p>
+        <a href="#demo" class="btn btn-gold" style="width:100%;justify-content:center;padding:12px;">Enroll Now →</a>
+      </div>
+      <div class="course-card reveal" style="transition-delay:.35s">
+        <div class="course-icon-wrap">🌱</div>
+        <span class="course-tag">Class V</span>
+        <h3>5th Class</h3>
+        <p>Early foundation — building reading, writing, arithmetic and problem-solving in a fun environment.</p>
+        <a href="#demo" class="btn btn-gold" style="width:100%;justify-content:center;padding:12px;">Enroll Now →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════
+     FEATURES / WHY CHOOSE US
+══════════════════════════════════════════════ -->
+<section id="features">
+  <div class="container" style="position:relative;z-index:2;">
+    <div class="reveal">
+      <span class="pill"><span class="pill-dot"></span>Why Choose Us</span>
+      <h2 class="section-title">Built for Real Results,<br />Rooted in Care</h2>
+      <span class="gold-line"></span>
+      <p class="section-sub">We go beyond textbooks to build confident, capable students who excel in exams and in life.</p>
+    </div>
+    <div class="features-grid reveal" style="transition-delay:.15s">
+      <div class="feat-cell">
+        <div class="feat-icon">🏅</div>
+        <h4>100% Pass Guarantee</h4>
+        <p>Every student who joins us passes their exams. We back this with supplementary coaching until they succeed.</p>
+      </div>
+      <div class="feat-cell">
+        <div class="feat-icon">👨‍🏫</div>
+        <h4>Experienced Faculty</h4>
+        <p>Years of classroom expertise, subject mastery, and a genuine passion for student growth and success.</p>
+      </div>
+      <div class="feat-cell">
+        <div class="feat-icon">❤️</div>
+        <h4>Individual Student Care</h4>
+        <p>Small batches ensure every student gets personal attention, doubt clearing, and tailored guidance daily.</p>
+      </div>
+      <div class="feat-cell">
+        <div class="feat-icon">📝</div>
+        <h4>Daily Practice &amp; Tests</h4>
+        <p>Regular practice sessions and weekly tests keep students consistently sharp and examination-ready.</p>
+      </div>
+      <div class="feat-cell">
+        <div class="feat-icon">💡</div>
+        <h4>Special Weak Student Batches</h4>
+        <p>Dedicated remedial sessions identify gaps and strengthen weak areas — no student is ever left behind.</p>
+      </div>
+      <div class="feat-cell">
+        <div class="feat-icon">📈</div>
+        <h4>Betterment Coaching</h4>
+        <p>Post-exam betterment and supplementary coaching ensures students can improve scores and reach potential.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════
+     SUMMER BANNER
+══════════════════════════════════════════════ -->
+<section id="summer">
+  <div class="summer-inner">
+    <div class="container" style="position:relative;z-index:2;">
+      <span class="pill"><span class="pill-dot"></span>Summer Special 2025</span>
+      <h2 class="section-title">☀️ Summer Advance Classes</h2>
+      <p>Start Early, Stay Ahead! Get a head-start on the new academic year with our intensive Summer Advance Program. Limited seats — book yours today!</p>
+      <div style="display:flex;flex-wrap:wrap;gap:14px;justify-content:center;">
+        <a href="#demo" class="btn btn-navy">🎯 Book Your Seat Now</a>
+        <a href="tel:9948879120" class="btn btn-ghost-white">📞 Call to Enquire</a>
+      </div>
+      <p style="margin-top:22px;font-size:.78rem;color:rgba(255,255,255,.65);">Advance booking open — Summer classes start June 2025</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════
+     SYLLABUS
+══════════════════════════════════════════════ -->
+<section id="syllabus">
+  <div class="container">
+    <div class="reveal" style="text-align:center;">
+      <span class="pill"><span class="pill-dot"></span>Syllabus Coverage</span>
+      <h2 class="section-title">We Teach Across All Boards</h2>
+      <span class="gold-line" style="margin:16px auto 0;"></span>
+    </div>
+    <div class="syllabus-grid">
+      <div class="syl-card reveal">
+        <div class="syl-icon">📘</div>
+        <h3>CBSE</h3>
+        <p>Central Board curriculum — structured coaching aligned with NCERT textbooks and latest exam patterns.</p>
+      </div>
+      <div class="syl-card reveal" style="transition-delay:.1s">
+        <div class="syl-icon">📗</div>
+        <h3>NCERT</h3>
+        <p>Complete NCERT concept coverage from 5th to 12th — thorough chapter-wise learning with solved exercises.</p>
+      </div>
+      <div class="syl-card reveal" style="transition-delay:.2s">
+        <div class="syl-icon">📕</div>
+        <h3>State Board (AP/TS)</h3>
+        <p>AP &amp; Telangana State Board syllabus with local language support and board-exam focused preparation.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════
+     FACULTY
+══════════════════════════════════════════════ -->
+<section id="faculty">
+  <div class="container">
+    <div class="reveal">
+      <span class="pill"><span class="pill-dot"></span>Our Faculty</span>
+      <h2 class="section-title">Learn from the Best</h2>
+      <span class="gold-line"></span>
+      <p class="section-sub">Passionate, experienced educators dedicated to bringing out the best in every student.</p>
+    </div>
+    <div class="faculty-grid">
+      <div class="fac-card reveal">
+        <div class="fac-img-wrap">
+          <img src="https://placehold.co/400x220/0a0f2e/c9913a?text=B.+Ramakrishna+🧑‍🏫" alt="B Ramakrishna" />
+          <div class="fac-img-overlay"></div>
+          <span class="fac-subject-tag">Mathematics &amp; Physics</span>
+        </div>
+        <div class="fac-body">
+          <h3>B. Ramakrishna</h3>
+          <div class="fac-exp">⭐ 12+ Years Experience &nbsp;|&nbsp; M.Sc. Physics, B.Ed.</div>
+        </div>
+      </div>
+      <div class="fac-card reveal" style="transition-delay:.1s">
+        <div class="fac-img-wrap">
+          <img src="https://placehold.co/400x220/162060/d9a84e?text=G.+Padmavathi+👩‍🏫" alt="G Padmavathi" />
+          <div class="fac-img-overlay"></div>
+          <span class="fac-subject-tag">Chemistry &amp; Biology</span>
+        </div>
+        <div class="fac-body">
+          <h3>G. Padmavathi</h3>
+          <div class="fac-exp">⭐ 9+ Years Experience &nbsp;|&nbsp; M.Sc. Chemistry, B.Ed.</div>
+        </div>
+      </div>
+      <div class="fac-card reveal" style="transition-delay:.2s">
+        <div class="fac-img-wrap">
+          <img src="https://placehold.co/400x220/1e2f80/e8c077?text=S.+Venkata+Rao+🧑‍🏫" alt="S Venkata Rao" />
+          <div class="fac-img-overlay"></div>
+          <span class="fac-subject-tag">English &amp; Social Studies</span>
+        </div>
+        <div class="fac-body">
+          <h3>S. Venkata Rao</h3>
+          <div class="fac-exp">⭐ 15+ Years Experience &nbsp;|&nbsp; M.A. English, B.Ed.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════
+     TESTIMONIALS
+══════════════════════════════════════════════ -->
+<section id="testimonials">
+  <div class="container">
+    <div class="reveal">
+      <span class="pill"><span class="pill-dot"></span>Student Reviews</span>
+      <h2 class="section-title">Parents &amp; Students Love Us</h2>
+      <span class="gold-line"></span>
+      <p class="section-sub">Real stories from real families who trusted Sri Lakshmi Academy with their children.</p>
+    </div>
+    <div class="testi-grid">
+      <div class="testi-card reveal">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-text">"My daughter struggled with Mathematics, but after joining Sri Lakshmi Academy she scored 95 in her board exams! The teachers truly care about each student."</p>
+        <div class="testi-author">
+          <img src="https://placehold.co/44x44/c9913a/fff?text=P" alt="Parent" class="testi-av" />
+          <div>
+            <div class="testi-name">Priya's Mother</div>
+            <div class="testi-role">Parent — 10th Class Student</div>
+          </div>
+        </div>
+      </div>
+      <div class="testi-card reveal" style="transition-delay:.1s">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-text">"The faculty is phenomenal. My son cleared Intermediate MPC with distinction and secured admission in a top engineering college. Truly life-changing."</p>
+        <div class="testi-author">
+          <img src="https://placehold.co/44x44/0a0f2e/c9913a?text=R" alt="Parent" class="testi-av" />
+          <div>
+            <div class="testi-name">Ravi Kumar</div>
+            <div class="testi-role">Parent — Intermediate MPC</div>
+          </div>
+        </div>
+      </div>
+      <div class="testi-card reveal" style="transition-delay:.2s">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-text">"I was very weak in Science and feared failing. The special batches here built my foundation from scratch and I passed with 82 marks. Forever grateful!"</p>
+        <div class="testi-author">
+          <img src="https://placehold.co/44x44/162060/d9a84e?text=A" alt="Student" class="testi-av" />
+          <div>
+            <div class="testi-name">Amruta Devi</div>
+            <div class="testi-role">Student — 9th Class</div>
+          </div>
+        </div>
+      </div>
+      <div class="testi-card reveal" style="transition-delay:.3s">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-text">"The 100% pass guarantee is real! My son was struggling before joining. Now he stands among the top 5 in his class. Best investment we ever made."</p>
+        <div class="testi-author">
+          <img src="https://placehold.co/44x44/d9a84e/fff?text=S" alt="Parent" class="testi-av" />
+          <div>
+            <div class="testi-name">Suresh Babu</div>
+            <div class="testi-role">Parent — 8th Class Student</div>
+          </div>
+        </div>
+      </div>
+      <div class="testi-card reveal" style="transition-delay:.4s">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-text">"Small batches mean my daughter gets personal attention. Regular tests keep her always prepared. Highly recommend Sri Lakshmi Academy to all parents!"</p>
+        <div class="testi-author">
+          <img src="https://placehold.co/44x44/1e2f80/e8c077?text=L" alt="Parent" class="testi-av" />
+          <div>
+            <div class="testi-name">Lakshmi Narayana</div>
+            <div class="testi-role">Parent — 6th Class Student</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════
+     DEMO / LEAD FORM
+══════════════════════════════════════════════ -->
+<section id="demo">
+  <div class="container">
+    <div class="demo-grid">
+      <!-- LEFT info -->
+      <div class="reveal">
+        <span class="pill"><span class="pill-dot"></span>Free Demo Class</span>
+        <h2 class="section-title">Book Your Free<br />Demo Session Today</h2>
+        <span class="gold-line"></span>
+        <p class="section-sub">Experience the Sri Lakshmi Academy difference — no commitment, no fees for the first class.</p>
+        <div class="demo-check-list">
+          <div class="demo-check">
+            <div class="demo-check-icon">✅</div>
+            <p>No registration fee for demo class</p>
+          </div>
+          <div class="demo-check">
+            <div class="demo-check-icon">✅</div>
+            <p>Personal counselling for parents &amp; students</p>
+          </div>
+          <div class="demo-check">
+            <div class="demo-check-icon">✅</div>
+            <p>Meet faculty and experience teaching methods</p>
+          </div>
+          <div class="demo-check">
+            <div class="demo-check-icon">⚡</div>
+            <p>Quick callback within 30 minutes guaranteed</p>
+          </div>
+        </div>
+        <div class="cta-phone-box">
+          <div class="icon">📞</div>
+          <div>
+            <div class="label">Call us directly</div>
+            <a href="tel:9948879120">9948879120</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT form -->
+      <div class="reveal" style="transition-delay:.15s">
+        <div class="form-box">
+          <h2>Get Free Demo Class</h2>
+          <p>Fill in your details — we'll call you within 30 minutes!</p>
+          <div id="formSuccess" class="form-success">
+            🎉 Thank you! We'll call you back within 30 minutes to schedule your free demo class!
+          </div>
+          <form id="leadForm">
+            <div class="form-group">
+              <label>Student Name *</label>
+              <input type="text" id="fname" placeholder="Enter student's full name" required />
+            </div>
+            <div class="form-group">
+              <label>Class / Standard *</label>
+              <select id="classSelect" required>
+                <option value="">Select Class</option>
+                <option>5th Class</option>
+                <option>6th Class</option>
+                <option>7th Class</option>
+                <option>8th Class</option>
+                <option>9th Class</option>
+                <option>10th Class</option>
+                <option>Intermediate – MPC</option>
+                <option>Intermediate – BiPC</option>
+                <option>Intermediate – Commerce / Accounts</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Parent's Phone Number *</label>
+              <input type="tel" id="phone" placeholder="Enter 10-digit mobile number" required pattern="[0-9]{10}" />
+            </div>
+            <div class="form-group">
+              <label>Board / Syllabus</label>
+              <select id="board">
+                <option value="">Select Board (Optional)</option>
+                <option>CBSE</option>
+                <option>NCERT</option>
+                <option>State Board (AP/TS)</option>
+              </select>
+            </div>
+            <button type="submit" class="btn btn-gold" style="width:100%;justify-content:center;padding:16px;font-size:.95rem;">
+              🎓 Get Free Demo Class
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════
+     CONTACT
+══════════════════════════════════════════════ -->
+<section id="contact">
+  <div class="container" style="position:relative;z-index:2;">
+    <div class="reveal">
+      <span class="pill"><span class="pill-dot"></span>Find Us</span>
+      <h2 class="section-title">Visit Sri Lakshmi Academy</h2>
+      <span class="gold-line"></span>
+      <p class="section-sub">Conveniently located in Old Gajuwaka, Visakhapatnam. Come meet our team!</p>
+    </div>
+    <div class="contact-grid">
+      <div class="reveal">
+        <div class="contact-item">
+          <div class="c-icon">📍</div>
+          <div>
+            <h4>Address</h4>
+            <p>Old Gajuwaka, Visakhapatnam – 530 026<br />Andhra Pradesh, India</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="c-icon">📞</div>
+          <div>
+            <h4>Phone</h4>
+            <a href="tel:9948879120">+91 99488 79120</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="c-icon">💬</div>
+          <div>
+            <h4>WhatsApp</h4>
+            <a href="https://wa.me/919948879120" target="_blank">Chat with us on WhatsApp →</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="c-icon">🕐</div>
+          <div>
+            <h4>Timings</h4>
+            <p>Mon–Sat: 7:00 AM – 8:00 PM<br />Sunday: 9:00 AM – 12:00 PM</p>
+          </div>
+        </div>
+        <div style="display:flex;flex-wrap:wrap;gap:12px;margin-top:8px;">
+          <a href="tel:9948879120" class="btn btn-gold">📞 Call Now</a>
+          <a href="https://wa.me/919948879120" target="_blank" class="btn btn-ghost-white">💬 WhatsApp</a>
+        </div>
+      </div>
+      <div class="reveal" style="transition-delay:.15s">
+        <div class="map-frame">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30424!2d83.2!3d17.68!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTfCsDQwJzQ4LjAiTiA4M8KwMTInMDAuMCJF!5e0!3m2!1sen!2sin!4v1234567890"
+            allowfullscreen="" loading="lazy"
+            title="Sri Lakshmi Academy Location">
+          </iframe>
+        </div>
+        <div class="map-hint">
+          <span style="font-size:1.3rem;">🗺️</span>
+          <div>
+            <p>Old Gajuwaka, Visakhapatnam – 530 026</p>
+            <a href="https://maps.google.com/?q=Old+Gajuwaka+Visakhapatnam" target="_blank">Open in Google Maps →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════
+     FOOTER
+══════════════════════════════════════════════ -->
+<footer>
+  <div class="footer-grid">
+    <!-- Brand -->
+    <div class="footer-brand">
+      <div class="footer-emblem">
+        <div class="footer-emblem-icon">🎓</div>
+      </div>
+      <div class="footer-brand-name">Sri Lakshmi Academy</div>
+      <div class="footer-tagline">✦ Right Choice for Bright Future ✦</div>
+      <p>Empowering students from 5th to Intermediate with quality education, individual care, and a 100% pass guarantee since over a decade in Gajuwaka, Visakhapatnam.</p>
+      <a href="tel:9948879120" class="footer-cta-box">📞 9948879120</a>
+    </div>
+    <!-- Quick Links -->
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#features">Why Us</a></li>
+        <li><a href="#summer">Summer Classes</a></li>
+        <li><a href="#faculty">Faculty</a></li>
+        <li><a href="#demo">Free Demo</a></li>
+      </ul>
+    </div>
+    <!-- Courses -->
+    <div class="footer-col">
+      <h4>Courses</h4>
+      <ul>
+        <li><a href="#courses">Intermediate MPC</a></li>
+        <li><a href="#courses">Intermediate BiPC</a></li>
+        <li><a href="#courses">Commerce &amp; Accounts</a></li>
+        <li><a href="#courses">10th Class</a></li>
+        <li><a href="#courses">9th Class</a></li>
+        <li><a href="#courses">5th – 8th Class</a></li>
+      </ul>
+    </div>
+    <!-- Contact -->
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <ul>
+        <li><a href="tel:9948879120">📞 9948879120</a></li>
+        <li><a href="https://wa.me/919948879120" target="_blank">💬 WhatsApp Us</a></li>
+        <li><a href="#contact">📍 Old Gajuwaka, Vizag</a></li>
+        <li><a href="#syllabus">CBSE · NCERT · State</a></li>
+        <li><a href="#demo">Book Free Demo</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2025 Sri Lakshmi Academy, Visakhapatnam. All Rights Reserved.</p>
+    <div class="social-row">
+      <a href="#" class="soc-btn" title="Facebook">📘</a>
+      <a href="https://wa.me/919948879120" class="soc-btn" title="WhatsApp" target="_blank">💬</a>
+      <a href="#" class="soc-btn" title="YouTube">📺</a>
+      <a href="#" class="soc-btn" title="Instagram">📷</a>
+    </div>
+  </div>
+</footer>
+
+
+<!-- ══════════════════════════════════════════════
+     FLOATING BUTTONS
+══════════════════════════════════════════════ -->
+<div class="fab-wrap">
+  <div class="fab-row">
+    <span class="fab-tip">Call Now</span>
+    <a href="tel:9948879120" class="fab fab-call" title="Call Now">📞</a>
+  </div>
+  <div class="fab-row">
+    <span class="fab-tip">WhatsApp</span>
+    <a href="https://wa.me/919948879120?text=Hello!%20I%20want%20to%20enquire%20about%20Sri%20Lakshmi%20Academy%20admissions." target="_blank" class="fab fab-wa" title="WhatsApp">💬</a>
+  </div>
+</div>
+
+
+<script>
+  // ── Hamburger ───────────────────────────────────
+  const ham = document.getElementById('hamburger');
+  const mob = document.getElementById('mobileMenu');
+  ham.addEventListener('click', () => mob.classList.toggle('open'));
+  function closeMob() { mob.classList.remove('open'); }
+
+  // ── Scroll reveal ───────────────────────────────
+  const io = new IntersectionObserver(entries => {
+    entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+  }, { threshold: 0.1 });
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+  // ── Nav shadow on scroll ────────────────────────
+  window.addEventListener('scroll', () => {
+    document.getElementById('nav').style.boxShadow =
+      window.scrollY > 12 ? '0 4px 28px rgba(10,15,46,.12)' : 'none';
+  });
+
+  // ── Lead form ───────────────────────────────────
+  document.getElementById('leadForm').addEventListener('submit', function (e) {
+    e.preventDefault();
+    const n = document.getElementById('fname').value.trim();
+    const c = document.getElementById('classSelect').value;
+    const p = document.getElementById('phone').value.trim();
+    if (!n || !c || !p) { alert('Please fill in all required fields.'); return; }
+    if (!/^[0-9]{10}$/.test(p)) { alert('Please enter a valid 10-digit phone number.'); return; }
+    const btn = this.querySelector('button');
+    btn.textContent = 'Submitting…'; btn.disabled = true;
+    setTimeout(() => {
+      this.style.display = 'none';
+      document.getElementById('formSuccess').style.display = 'block';
+      const msg = encodeURIComponent(
+        `Hello Sri Lakshmi Academy!\nStudent Name: ${n}\nClass: ${c}\nPhone: ${p}\nI'd like to book a free demo class.`
+      );
+      window.open(`https://wa.me/919948879120?text=${msg}`, '_blank');
+    }, 900);
+  });
+</script>
+</body>
+</html>
